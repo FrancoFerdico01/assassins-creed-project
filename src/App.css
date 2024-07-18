@@ -1,0 +1,46 @@
+.App {
+  height: 30%;
+  width: 100%;
+}
+
+.App img {
+  position: relative;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+}
+
+.app-text {
+  background: rgb(11, 11, 11);
+  background: linear-gradient(
+    90deg,
+    rgba(11, 11, 11, 0) 8%,
+    rgba(11, 11, 11, 1) 16%,
+    rgba(11, 11, 11, 1) 84%,
+    rgba(11, 11, 11, 0) 100%
+  );
+  position: fixed;
+  z-index: 2;
+  transform: translateY(-230%);
+  margin-left:550px;
+  color: white;
+  width: 800px;
+}
+
+.app-text h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Trajan Pro";
+  margin-bottom: 10px;
+}
+.app-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+  font-family: "Trajan Pro";
+  font-size: x-large;
+}

@@ -1,0 +1,60 @@
+.Login{
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.578);
+    z-index: 6;
+  }
+  
+  .dialog {
+    position: fixed;
+    inset: 0;
+    margin: auto;
+    border: none;
+    border-radius: 15px;
+    height: 65%;
+    background-color: white;
+    padding: 50px;
+    z-index: 9;
+    font-family: 'Trajan pro';
+  }
+
+  .login-img{
+    height: 300px;
+    width: 350px;
+  }
+  
+
+  .dialog input {
+    margin-bottom: 20px;
+    }
+  
+  .dialog input {
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  .btn-login {
+    color: white;
+    margin-top: 15px;
+    background-color: black;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 130px;
+    cursor: pointer;
+  }
+
+  .text-error{
+    text-align: center;
+    margin-top: 5px;
+  }
+  
+  
+  
+  

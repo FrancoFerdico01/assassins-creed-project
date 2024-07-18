@@ -1,0 +1,71 @@
+.Games {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  gap: 50px;
+  padding-inline: 50px;
+}
+
+.img-games {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.img-poster {
+  height: 300px;
+  width: 200px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.ul-games {
+  width: 100%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  display: flex;
+  margin-bottom: 30px;
+  gap: 80px;
+}
+
+.h3-games {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  color: white;
+}
+.overlay {
+  margin-top: 10px;
+  background: rgb(11, 11, 11);
+  background: linear-gradient(
+    90deg,
+    rgba(11, 11, 11, 0) 0%,
+    rgba(11, 11, 11, 1) 10%,
+    rgba(11, 11, 11, 1) 90%,
+    rgba(11, 11, 11, 0) 100%
+  );
+}
+
+.btn-slide-left {
+  transform: rotate(-90deg);
+  height: 70px;
+  width: 70px;
+  cursor: pointer;
+}
+.btn-slide-right {
+  transform: rotate(90deg);
+  height: 70px;
+  width: 70px;
+  cursor: pointer;
+}
+
+.games-link {
+  text-decoration: none;
+  background: transparent;
+  border: none;
+}

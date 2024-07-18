@@ -1,0 +1,53 @@
+.Navbar {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 30px;
+    padding-left: 10px;
+    height: 100px;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .Home-img {
+    height: 70px;
+    padding-left: 10px;
+  }
+  
+  .Nav-h2 {
+    color: black;
+    font-family: "Trajan Pro";
+    font-size: 25px;
+    white-space: nowrap;
+  }
+
+  .log-img{
+    margin-left: 1000px;
+    height: 50px;
+  }
+  
+  .log{
+    display: flex;
+    gap: 15px;
+    font-family: 'Trajan pro';
+    font-size: xx-large;
+  }
+
+  .btn-log{
+    cursor: pointer;
+    background: none;
+    border: none;
+  }
+
+  .btn-username{
+    background: none;
+    border: none;
+    cursor: pointer;
+  }

@@ -1,0 +1,42 @@
+.Logout {
+  position: fixed;
+  top: 0;
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.578);
+  z-index: 6;
+}
+
+.dialog-logout {
+  text-align: center;
+  position: fixed;
+  inset: 0;
+  margin: auto;
+  border: none;
+  border-radius: 15px;
+  height: 30%;
+  width: 30%;
+  background-color: white;
+  padding: 50px;
+  z-index: 15;
+  font-family: "Trajan pro";
+  font-size: x-large;
+}
+
+.btn-logout {
+  display: flex;
+  gap: 100px;
+  margin-left: 40px;
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+.btn-logout button {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  height: 50px;
+  width: 150px;
+  border-radius: 10px;
+  border: none;
+}
